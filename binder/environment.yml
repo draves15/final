@@ -7,6 +7,7 @@ dependencies:
   - r-tidyverse
   - pip
   - pip:
+    - sklearn
     - pandas
     - matplotlib
     - numpy
