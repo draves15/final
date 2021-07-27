@@ -133,10 +133,10 @@ models.append(('SVM', SVC(gamma='auto')))
 results = []
 names = []
 for name, model in models:
-kfold = StratifiedKFold(n_splits=10, random_state=1, shuffle=True)
-cv_results = cross_val_score(model, X_train, Y_train, cv=kfold, scoring='accuracy')
-results.append(cv_results)
-names.append(name)
+   kfold = StratifiedKFold(n_splits=10, random_state=1, shuffle=True)
+   cv_results = cross_val_score(model, X_train, Y_train, cv=kfold, scoring='accuracy')
+   results.append(cv_results)
+   names.append(name)
 print('%s: %f (%f)' % (name, cv_results.mean(), cv_results.std()))
 
 # 5.4 Select Best Model
@@ -179,9 +179,9 @@ models.append(('SVM', SVC(gamma='auto')))
 results = []
 names = []
 for name, model in models:
-kfold = StratifiedKFold(n_splits=10, random_state=1, shuffle=True)
-cv_results = cross_val_score(model, X_train, Y_train, cv=kfold, scoring='accuracy')
-results.append(cv_results)
+     kfold = StratifiedKFold(n_splits=10, random_state=1, shuffle=True)
+     cv_results = cross_val_score(model, X_train, Y_train, cv=kfold, scoring='accuracy')
+     results.append(cv_results)
 names.append(name)
 print('%s: %f (%f)' % (name, cv_results.mean(), cv_results.std()))
 # Compare Algorithms
