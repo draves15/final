@@ -1,5 +1,8 @@
 # https://osu.instructure.com/courses/103775/assignments/2302426?module_item_id=6434076
 
+# 1.1 Install SciPy Libraries
+# see enviroment.yml
+
 # Load libraries
 from pandas import read_csv
 from pandas.plotting import scatter_matrix
