@@ -1,0 +1,33 @@
+[I 02:37:15.809 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2021-07-27 02:37:16.859 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-27 02:37:16.860 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-27 02:37:16.860 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-27 02:37:16.860 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-27 02:37:16.860 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-27 02:37:16.860 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-27 02:37:16.860 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-27 02:37:16.860 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-27 02:37:16.860 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-27 02:37:16.860 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-27 02:37:16.860 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-27 02:37:16.860 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-27 02:37:16.870 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-07-27 02:37:16.870 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 02:37:16.878 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 02:37:16.880 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 02:37:16.881 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 02:37:16.881 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 02:37:16.881 NotebookApp] http://jupyter-draves15-2dfinal-2dtxi9yseb:8888/user/draves15-final-txi9yseb/?token=...
+[I 02:37:16.881 NotebookApp]  or http://127.0.0.1:8888/user/draves15-final-txi9yseb/?token=...
+[I 02:37:16.881 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 02:37:16.885 NotebookApp] No web browser found: could not locate runnable browser.
+[I 02:37:19.646 NotebookApp] 302 GET /user/draves15-final-txi9yseb/ (10.0.0.17) 1.160000ms
+[I 02:37:20.951 NotebookApp] 302 GET /user/draves15-final-txi9yseb/?token=NxGdNIKnRKyQTKYr8trgIw (208.38.225.59) 0.950000ms
+[I 02:37:34.457 NotebookApp] Creating new directory in 
+[I 02:38:01.587 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 02:39:38.832 NotebookApp] Saving file at /binder/environment.yml
+[I 02:39:51.710 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
