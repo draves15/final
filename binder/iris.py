@@ -78,17 +78,21 @@ print(dataset.describe())
 # class distribution
 print(dataset.groupby('class').size())
 
-# 4.1
+# 4.1 Univariate Plots
 # box and whisker plots
 dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
 pyplot.show()
 
-# 4.2
+# 4.2 Multivariate Plots
 # scatter plot matrix
 scatter_matrix(dataset)
 pyplot.show()
 
-# 4.3
+# histograms
+dataset.hist()
+pyplot.show()
+
+# 4.3 Complete Example
 # visualize the data
 from pandas import read_csv
 from pandas.plotting import scatter_matrix
@@ -107,16 +111,16 @@ pyplot.show()
 scatter_matrix(dataset)
 pyplot.show()
 
-# 5.1
+# 5.1 Create a Validation Dataset
 # Split-out validation dataset
 array = dataset.values
 X = array[:,0:4]
 y = array[:,4]
 X_train, X_validation, Y_train, Y_validation = train_test_split(X, y, test_size=0.20, random_state=1)
 
-# 5.2
+# 5.2 Test Harness
 
-# 5.3
+# 5.3 Build Models
 # Spot Check Algorithms
 models = []
 models.append(('LR', LogisticRegression(solver='liblinear', multi_class='ovr')))
@@ -135,14 +139,13 @@ results.append(cv_results)
 names.append(name)
 print('%s: %f (%f)' % (name, cv_results.mean(), cv_results.std()))
 
-
-# 5.4
+# 5.4 Select Best Model
 # Compare Algorithms
 pyplot.boxplot(results, labels=names)
 pyplot.title('Algorithm Comparison')
 pyplot.show()
 
-# 5.5
+# 5.5 Complete Example
 # compare algorithms
 from pandas import read_csv
 from matplotlib import pyplot
@@ -186,19 +189,19 @@ pyplot.boxplot(results, labels=names)
 pyplot.title('Algorithm Comparison')
 pyplot.show()
 
-# 6.1
+# 6.1 Make Predictions
 # Make predictions on validation dataset
 model = SVC(gamma='auto')
 model.fit(X_train, Y_train)
 predictions = model.predict(X_validation)
 
-# 6.2
+# 6.2 Evaluate Predictions
 # Evaluate predictions
 print(accuracy_score(Y_validation, predictions))
 print(confusion_matrix(Y_validation, predictions))
 print(classification_report(Y_validation, predictions))
 
-# 6.3
+# 6.3 Complete Example
 # make predictions
 from pandas import read_csv
 from sklearn.model_selection import train_test_split
