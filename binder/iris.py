@@ -50,18 +50,19 @@ dataset = read_csv(url, names=names)
 # shape
 print(dataset.shape)
 
+# 3.2 Peek at the Data
 # head
 print(dataset.head(20))
 
-
+# 3.3 Statistical Summary
 # descriptions
 print(dataset.describe())
 
-
+# 3.4 Class Distribution
 # class distribution
 print(dataset.groupby('class').size())
 
-
+# 3.5 Complete Example
 # summarize the data
 from pandas import read_csv
 # Load dataset
