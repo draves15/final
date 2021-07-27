@@ -5,7 +5,6 @@
 
 # 1.2 Start Binder and Create a Jupyter Notebook to check Python and Versions
 # Check the versions of libraries
- 
 # Python version
 import sys
 print('Python: {}'.format(sys.version))
@@ -25,7 +24,7 @@ print('pandas: {}'.format(pandas.__version__))
 import sklearn
 print('sklearn: {}'.format(sklearn.__version__))
 
-# Load libraries
+# 2.1 Load libraries
 from pandas import read_csv
 from pandas.plotting import scatter_matrix
 from matplotlib import pyplot
@@ -42,11 +41,12 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
-# Load dataset
+# 2.2 Load dataset
 url = "iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = read_csv(url, names=names)
 
+# 3.1 Dimensions of Dataset
 # shape
 print(dataset.shape)
 
