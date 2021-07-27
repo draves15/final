@@ -1,3 +1,27 @@
+# Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+
+# Here is a BiBTeX citation as well:
+
+# @misc{Dua:2019 ,
+# author = "Dua, Dheeru and Graff, Casey",
+# year = "2017",
+# title = "{UCI} Machine Learning Repository",
+# url = "http://archive.ics.uci.edu/ml",
+# institution = "University of California, Irvine, School of Information and Computer Sciences" }#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # https://osu.instructure.com/courses/103775/assignments/2302426?module_item_id=6434076
 
 # 1.1 Install SciPy Libraries
