@@ -9,19 +9,6 @@
 # url = "http://archive.ics.uci.edu/ml",
 # institution = "University of California, Irvine, School of Information and Computer Sciences" }#
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # https://osu.instructure.com/courses/103775/assignments/2302426?module_item_id=6434076
 
 # 1.1 Install SciPy Libraries
